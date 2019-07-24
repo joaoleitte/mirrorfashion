@@ -76,6 +76,20 @@ header {
 	width: 170px;
 }
 
+.busca button {
+	/* adicionando imagem */
+	background-image: url(../img/busca.png);
+	background-repeat: no-repeat;
+	border: none;
+	
+	/* tamanho da imagem */
+	width: 20px;
+	height: 20px;
+	
+	/* imagem replacement */
+	text-indent: -9999px;
+}
+
 .destaque {
 	margin-top: 10px;
 }

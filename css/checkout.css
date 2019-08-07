@@ -1,0 +1,9 @@
+
+
+.form-control:invalid {
+	border: 1px solid #cc0000;
+}
+
+body {
+	padding-top: 55px;
+}

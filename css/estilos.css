@@ -175,6 +175,14 @@ body {
 	transition: 0.3s;
 }
 
+.painel li:nth-child(n+7) {
+	display: none;
+}
+
+.painel-aberto li:nth-child(n+7) {
+	display: inline-block;
+}
+
 .painel h2 {
 	font-size: 24px;
 	font-weight: bold;

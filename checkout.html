@@ -64,8 +64,23 @@
 								<dd>42</dd>
 								
 								<dt>Preço</dt>
-								<dd>R$ 48,95</dd>
+								<dd id="preco">R$ 48,95</dd>
 							</dl>
+						</div>
+					</div>
+					<div class="card mb-3">
+						<div class="card-body">
+						
+							<div class="form-group">
+								<label for="qtd">Quantidade</label>
+								<input type="number" id="qtd" min="1" max="99" value="1" class="form-control">
+							</div>
+							
+							<div class="form-group">
+								<label for="total">Total:</label>
+								<output for="qtd_preco" id="total" class="form-control">R$ 48,95</output>
+							</div>
+						
 						</div>
 					</div>
 				</div>
@@ -156,6 +171,7 @@
 							
 			</div>				
 		</div>
+	<script type="text/javascript" src="js/total.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	</body>
